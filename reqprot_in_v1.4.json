@@ -1,0 +1,4361 @@
+{
+      "rules": [
+        {
+          "action-name": "Pre-configured Check Action",
+          "condition": "i_starts_with(http.request.url.path, '/')",
+          "condition-language": "JMESPATH",
+          "name": "BS_Protection_rules_3",
+          "protection-capabilities": [
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157908",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157907",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157906",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157898",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157872",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157836",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157835",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157720",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157549",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157548",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157487",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157482",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157481",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157454",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157450",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157449",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157439",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157438",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157437",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157436",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157433",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157426",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157337",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157298",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157276",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157275",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157252",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157246",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157245",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157243",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157241",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157229",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157108",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157097",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157094",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157092",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157091",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157088",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157087",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157076",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157074",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157072",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156990",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156989",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156936",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156934",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156905",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156865",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156846",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156845",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156825",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156824",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156823",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156800",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156799",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156626",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156624",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156604",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156560",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156558",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156557",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156554",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156551",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156550",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156545",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156533",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156532",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156524",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156523",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156434",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156428",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156427",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156423",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156421",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156420",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156419",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156417",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156415",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156414",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156408",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156405",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156404",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156321",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156305",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156304",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156303",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156201",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156200",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156188",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156186",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156155",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156154",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156134",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202156070",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155918",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155838",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155836",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155821",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155797",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155778",
+              "version": 1
+            }
+          ],
+          "protection-capability-settings": null,
+          "type": "PROTECTION"
+        },
+        {
+          "action-name": "Pre-configured Check Action",
+          "condition": "i_starts_with(http.request.url.path, '/')",
+          "condition-language": "JMESPATH",
+          "name": "BS_Protection_rules_4",
+          "protection-capabilities": [
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202155743",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154824",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154675",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154672",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154649",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154617",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154596",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154574",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154573",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154511",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154484",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154319",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154273",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154272",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154197",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202154196",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153885",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153866",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153592",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153591",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153567",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153566",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153558",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153547",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153509",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153507",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153506",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153505",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153435",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153433",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153347",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153346",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153256",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202153063",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202151833",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202151620",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202151586",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202142013",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202129592",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202126085",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "2020590201, 2020590202",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950732",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950711",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950709",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950708",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950324",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950323",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950275",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950170",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201950168",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949861",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949714",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949647",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949646",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949645",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949537",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949499",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201949498",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948843",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948840",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948839",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948837",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948815",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948744",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948443",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948414",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948413",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948273",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948269",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948268",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948267",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948266",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948263",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948256",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948196",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948195",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948194",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948193",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948173",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948172",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948165",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948161",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948143",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948141",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948126",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948098",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948097",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948071",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948070",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948061",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201948004",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947864",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947863",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947861",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947859",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947858",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947818",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947817",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947800",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947799",
+              "version": 1
+            }
+          ],
+          "protection-capability-settings": null,
+          "type": "PROTECTION"
+        },
+        {
+          "action-name": "Pre-configured Check Action",
+          "condition": "i_starts_with(http.request.url.path, '/')",
+          "condition-language": "JMESPATH",
+          "name": "BS_Protection_rules_5",
+          "protection-capabilities": [
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946666",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946665",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946627",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946626",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946625",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946624",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946516",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946514",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946512",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946510",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946509",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946451",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946338",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946337",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946334",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946333",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946316",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946303",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946088",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946087",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946063",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946062",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946042",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946041",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946030",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946029",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946028",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946025",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946024",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201945984",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201945913",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201945911",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201945526",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201945493",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201939743",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "2019272501,2019272502,2019272503,2019272504",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201919781",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "2018100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "2017100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "10271",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947797",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947796",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947795",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947794",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947771",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947768",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947767",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947672",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947655",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947649",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947583",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947582",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947581",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947580",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947579",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947577",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947576",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947545",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947544",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947543",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947514",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947507",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947506",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947502",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947501",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947498",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947497",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947423",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947393",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947391",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947389",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947387",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947386",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947349",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947348",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201947041",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946997",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946921",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946886",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946852",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946851",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946850",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946829",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946828",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946823",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946779",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946777",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946775",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946774",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "201946773",
+              "version": 1
+            }
+          ],
+          "protection-capability-settings": null,
+          "type": "PROTECTION"
+        },
+        {
+          "action-name": "Pre-configured Check Action",
+          "condition": "i_starts_with(http.request.url.path, '/')",
+          "condition-language": "JMESPATH",
+          "name": "BS_Protection_rules_1",
+          "protection-capabilities": [
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944300",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944250",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944240",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944210",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944200",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944130",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944110, 944120",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "944100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "943120",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "943110",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "943100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942511",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942510",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942500",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942490",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942480",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942470",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942460",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942450",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942440",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942432",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942431",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942430",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942421",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942420",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942410",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942400",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942390",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942380",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942370",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942361",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942360",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942350",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942340",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942330",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942320",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942310",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942300",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942290",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942280",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942270",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942260",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942251",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942250",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942240",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942230",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942220",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942210",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942200",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942190",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942180",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942170",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942160",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942150",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942140",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942130",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942120",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942110",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942101",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9420000",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941380",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941370",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941360",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941350",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941340",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941330",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941320",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941310",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941300",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941290",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941280",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941270",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941260",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941250",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941240",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941230",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941220",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941210",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941200",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941190",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941180",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941170",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941160",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941150",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941140",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941130",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941120",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941110",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941101",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "941100",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9410000",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "934100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933210",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933200",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933190",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933180",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933170",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933161",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933160",
+              "version": 2
+            }
+          ],
+          "protection-capability-settings": null,
+          "type": "PROTECTION"
+        },
+        {
+          "action-name": "Pre-configured Check Action",
+          "condition": "i_starts_with(http.request.url.path, '/')",
+          "condition-language": "JMESPATH",
+          "name": "BS_Protection_rules_2",
+          "protection-capabilities": [
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933151",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933150",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933140",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933131",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933130",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933120",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933111",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933110",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "933100",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9330000",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932190",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932180",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932170, 932171",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932160",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932150",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932140",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932130",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932120",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932115",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932110",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932106",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932105",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "932100",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9320000",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "931130",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "931120",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "931110",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "931100",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "930130",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "930120",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "930110",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "930100",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9300000",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "921190",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "921151",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "921150, 921160",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "921140",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "921120, 921130",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "921110",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920500",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920480",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920470",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920450",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920440",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920430",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920420",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920410",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920400",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920390",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920380",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920370",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920360",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920350",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920330",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920320",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920310,920311",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920300",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920280",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920270",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920260",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920230",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920200,920201",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920190",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920180",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920171",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920170",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920160",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920120",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920100",
+              "version": 2
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "911100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "46451",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "46316",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "43813",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "43812",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "43811",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "41409",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158094",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158093",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158066",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158065",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158058",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158057",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158056",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158054",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158053",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202158052",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157983",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157932",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157931",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157921",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157913",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157912",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157910",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "202157909",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9320001",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "920220,920240",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9200014",
+              "version": 1
+            }
+          ],
+          "protection-capability-settings": null,
+          "type": "PROTECTION"
+        },
+        {
+          "action-name": "Pre-configured Check Action",
+          "condition": "i_starts_with(http.request.url.path, '/')",
+          "condition-language": "JMESPATH",
+          "name": "BS_Protection_rules_SQLi",
+          "protection-capabilities": [
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942511",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942510",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942500",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942490",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942480",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942470",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942460",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942450",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942440",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942432",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942431",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942430",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942421",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942420",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942410",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942400",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942390",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942380",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942370",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942361",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942360",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942350",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942340",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942330",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942320",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942310",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942300",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942290",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942280",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942270",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942260",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942251",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942250",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942240",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942230",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942220",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942210",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942200",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942190",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942180",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942170",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942160",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942150",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942140",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942130",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942120",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942110",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942101",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "942100",
+              "version": 1
+            },
+            {
+              "action-name": null,
+              "collaborative-action-threshold": null,
+              "collaborative-weights": [],
+              "exclusions": null,
+              "key": "9420000",
+              "version": 1
+            }
+          ],
+          "protection-capability-settings": null,
+          "type": "PROTECTION"
+        }
+          ]
+}
+
