@@ -40,3 +40,17 @@ cat matchedIds_2.0.txt | sort -u > matchedIds_unique_1.0.txt
 cat matchedIds_unique_2.0.txt
 
 ```
+
+# List Protection Rules 
+
+1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
+
+(Replace compartment-id ocid1.compartment.oc1..aabbccdd112233 with your own value.)
+
+
+```
+
+oci waf protection-capability list --compartment-id ocid1.compartment.oc1..aabbccdd112233 --all --output table --query "data.items [*].{ProtectionRuleID:key, Name:\"display-name\"}" 
+
+
+```
