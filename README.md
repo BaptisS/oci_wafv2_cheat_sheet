@@ -36,8 +36,8 @@ oci logging-search search-logs --search-query $query$logpath"$filter" --time-sta
 jq -r '.[].data.data.requestProtection.matchedIds' searchoutput1.0.json > matchedIds_1.0.txt
 sed -i 's/;/\n/g' matchedIds_1.0.txt
 sed -i 's/_/ /g' matchedIds_1.0.txt
-cat matchedIds_2.0.txt | sort -u > matchedIds_unique_1.0.txt
-cat matchedIds_unique_2.0.txt
+cat matchedIds_1.0.txt | sort -u > matchedIds_unique_1.0.txt
+cat matchedIds_unique_1.0.txt
 
 ```
 
