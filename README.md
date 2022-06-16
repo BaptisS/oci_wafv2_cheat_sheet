@@ -1,5 +1,19 @@
 # oci_wafv2_cheat_sheet
 
+# Export Policy settings
+
+1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
+
+(Replace ‘ocid1.webappfirewallpolicy.oc1.aabbccdd123’ by your WAF Policy OCID - copied in the previous step.)
+
+
+```
+export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
+
+oci waf web-app-firewall-policy get --web-app-firewall-policy-id $wafpolid > wafv2-policy-export.json
+```
+
+
 
 # Enable all protection rules in Check Mode 
 
