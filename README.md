@@ -25,6 +25,18 @@ sed -i '/"lifecycle-state"/d' $exportfilename
 echo '}' >> $exportfilename
 ```
 
+oci waf web-app-firewall-policy create --from-json file://wafv2-policy-export.json
+
+# Create new policy from export file
+
+1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
+
+(Replace ‘ocid1.webappfirewallpolicy.oc1.aabbccdd123’ by your WAF Policy OCID - copied in the previous step.)
+
+
+```
+oci waf web-app-firewall-policy create --from-json file://wafv2-policy-export.json
+```
 
 
 # Enable all protection rules in Check Mode 
