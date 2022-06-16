@@ -9,8 +9,20 @@
 
 ```
 export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
+export exportfilename='wafv2-policy-export.json'
 
-oci waf web-app-firewall-policy get --web-app-firewall-policy-id $wafpolid > wafv2-policy-export.json
+oci waf web-app-firewall-policy get --web-app-firewall-policy-id $wafpolid | jq -r '.[]' > $exportfilename
+
+sed -i '$d' $exportfilename
+sed -i '$d' $exportfilename
+sed -i '$d' $exportfilename
+sed -i '$d' $exportfilename
+sed -i '$ s/.$//' $exportfilename 
+sed -i '/"id"/d' $exportfilename 
+sed -i '/"id"/d' $exportfilename 
+sed -i '/"lifecycle-details"/d' $exportfilename
+sed -i '/"lifecycle-state"/d' $exportfilename
+echo '}' >> $exportfilename
 ```
 
 
