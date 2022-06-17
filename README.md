@@ -77,21 +77,6 @@ oci waf web-app-firewall-policy update --web-app-firewall-policy-id $wafpolid --
 ```
 
 
-# Enable all protection rules in Check Mode 
-
-1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
-
-(Replace ‘ocid1.webappfirewallpolicy.oc1.aabbccdd123’ by your WAF Policy OCID - copied in the previous step.)
-
-
-```
-export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
-
-wget https://raw.githubusercontent.com/BaptisS/oci_wafv2_cheat_sheet/main/reqprot_in_v1.4.json
-
-oci waf web-app-firewall-policy update --web-app-firewall-policy-id $wafpolid --request-protection file:///reqprot_in_v1.4.json
-```
-
 # Extract Matched Protection Rules ID from Logs  
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
@@ -123,4 +108,19 @@ chmod +x matchedids.sh
 oci waf protection-capability list --compartment-id ocid1.compartment.oc1..aabbccdd112233 --all --output table --query "data.items [*].{ProtectionRuleID:key, Name:\"display-name\"}" 
 
 
+```
+
+# Enable all protection rules in Check Mode (not recommended)
+
+1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
+
+(Replace ‘ocid1.webappfirewallpolicy.oc1.aabbccdd123’ by your WAF Policy OCID - copied in the previous step.)
+
+
+```
+export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
+
+wget https://raw.githubusercontent.com/BaptisS/oci_wafv2_cheat_sheet/main/reqprot_in_v1.4.json
+
+oci waf web-app-firewall-policy update --web-app-firewall-policy-id $wafpolid --request-protection file:///reqprot_in_v1.4.json
 ```
