@@ -1,6 +1,6 @@
 # oci_wafv2_cheat_sheet
 
-# Export Policy settings
+# Export/Backup WAf Policy settings
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
 
@@ -25,9 +25,8 @@ sed -i '/"lifecycle-state"/d' $exportfilename
 echo '}' >> $exportfilename
 ```
 
-oci waf web-app-firewall-policy create --from-json file://wafv2-policy-export.json
 
-# Create new policy from export file
+# Create/Restore new WAf policy from export/backup file
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
 
@@ -35,7 +34,46 @@ oci waf web-app-firewall-policy create --from-json file://wafv2-policy-export.js
 
 
 ```
-oci waf web-app-firewall-policy create --from-json file://wafv2-policy-export.json
+export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
+export exportfilename='wafv2-policy-export.json'
+
+
+
+oci waf web-app-firewall-policy create --from-json file://$exportfilename
+```
+
+
+# Export/Backup Protections settings to file
+
+1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
+
+(Replace ‘ocid1.webappfirewallpolicy.oc1.aabbccdd123’ by your WAF Policy OCID - copied in the previous step.)
+
+
+```
+export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
+export exportprotfilename='wafv2-policy-protections-export.json'
+
+oci waf web-app-firewall-policy get --web-app-firewall-policy-id $wafpolid --query 'data .{protection:"request-protection"}' > $exportprotfilename
+
+sed -i '1d' $exportprotfilename
+sed -i '1d' $exportprotfilename
+sed -i '1i\{' $exportprotfilename
+sed -i '$d' $exportprotfilename
+
+```
+# Import / Restore Protections settings from file
+
+1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
+
+(Replace ‘ocid1.webappfirewallpolicy.oc1.aabbccdd123’ by your WAF Policy OCID - copied in the previous step.)
+
+
+```
+export wafpolid=ocid1.webappfirewallpolicy.oc1.aabbccdd123
+export exportprotfilename='wafv2-policy-protections-export.json'
+
+oci waf web-app-firewall-policy update --web-app-firewall-policy-id $wafpolid --request-protection file://$exportprotfilename
 ```
 
 
