@@ -1,6 +1,6 @@
 # oci_wafv2_cheat_sheet
 
-# Export/Backup WAf Policy settings
+# Export/Backup WAFv2 Policy settings
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
 
@@ -26,7 +26,7 @@ echo '}' >> $exportfilename
 ```
 
 
-# Create/Restore new WAf policy from export/backup file
+# Create/Restore new WAFv2 policy from export/backup file
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
 
@@ -43,7 +43,7 @@ oci waf web-app-firewall-policy create --from-json file://$exportfilename
 ```
 
 
-# Export/Backup Protections settings to file
+# Export/Backup WAFv2 Protections settings to file
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
 
@@ -62,7 +62,7 @@ sed -i '1i\{' $exportprotfilename
 sed -i '$d' $exportprotfilename
 
 ```
-# Import / Restore Protections settings from file
+# Import / Restore WAFv2 Protections settings from file
 
 1.1.2- Copy and Paste (CTRL+SHIFT+’V’) the command below in your Cloud Shell session : 
 
